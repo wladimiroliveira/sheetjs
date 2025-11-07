@@ -14,6 +14,26 @@ export function ExportTable() {
       row.modified_at = new Date(row.modified_at).toLocaleDateString("pt-BR");
       row.hsvalidity_products.map((subRow) => {
         subRow.validity_date = new Date(subRow.validity_date).toLocaleDateString("pt-BR");
+        subRow.treat_id =
+          subRow.treat_id === 1
+            ? "Pendente"
+            : subRow.treat_id === 2
+            ? "Colocar em promoção"
+            : subRow.treat_id === 3
+            ? "Troca com o fornecedor"
+            : subRow.treat_id === 4
+            ? "Transferência interna"
+            : subRow.treat_id === 5
+            ? "Bloqueio para venda"
+            : subRow.treat_id === 6
+            ? "Doação"
+            : subRow.treat_id === 7
+            ? "Vencido"
+            : subRow.treat_id === 8
+            ? "Produção vendável dentro do prazo"
+            : subRow.treat_id === 9
+            ? "Inserção tardia"
+            : "Tipo inválido";
       });
     });
     const products = valids.flatMap((item) =>
@@ -85,10 +105,11 @@ export function ExportTable() {
 export function ImportTable() {
   const [__html, setHtml] = useState("");
   const [table, setTable] = useState([]);
+  const [tableKey, setTableKey] = useState(0);
 
   async function readTable(data) {
     const buffer = await data.arrayBuffer();
-    const workbook = read(buffer, { sheetRows: 20 });
+    const workbook = read(buffer);
     const worksheet = workbook.Sheets[workbook.SheetNames[0]];
     const raw_data = utils.sheet_to_json(worksheet, { header: 1 });
     const rows = raw_data.filter((r) => typeof r[0] === "number");
@@ -103,10 +124,33 @@ export function ImportTable() {
       validity_date: r[11],
       treat_id: r[12],
     }));
+    rows.map((row) => {
+      row[12] =
+        row[12] === "Pendente"
+          ? 1
+          : row[12] === "Colocar em promoção"
+          ? 2
+          : row[12] === "Troca com o fornecedor"
+          ? 3
+          : row[12] === "Transferência interna"
+          ? 4
+          : row[12] === "Bloqueio para venda"
+          ? 5
+          : row[12] === "Doação"
+          ? 6
+          : row[12] === "Vencido"
+          ? 7
+          : row[12] === "Produto vendável dentro do prazo"
+          ? 8
+          : row[12] === "Inserção tardia"
+          ? 9
+          : "Tipo inválido";
+    });
 
     setTable(objects);
+    setTableKey((prev) => prev + 1);
 
-    console.log(raw_data);
+    console.log(objects);
     console.log(rows);
     // const url = "https://docs.sheetjs.com/PortfolioSummary.xls";
     // const file = await (await fetch(url)).arrayBuffer();
@@ -126,12 +170,16 @@ export function ImportTable() {
   return (
     <div>
       <form>
+        <label htmlFor="files">{tableKey}</label>
         <input
+          id="files"
+          name="files"
           type="file"
           accept=".xlsx, .xls"
           onChange={(e) => {
             const file = e.target.files[0];
             if (file) readTable(file);
+            e.target.value = "";
           }}
         />
         {/* <button
@@ -145,7 +193,7 @@ export function ImportTable() {
       </form>
       {__html && <div dangerouslySetInnerHTML={{ __html }} />}
       {table.length > 0 && (
-        <table>
+        <table key={tableKey}>
           <thead>
             <tr>
               <th>ID Validade</th>
