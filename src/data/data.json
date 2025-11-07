@@ -1,0 +1,1198 @@
+[
+  {
+    "id": 1,
+    "branch_id": 1,
+    "employee_id": 1,
+    "status": "Pendente",
+    "request_id": null,
+    "created_at": "2025-10-13T18:24:58.521Z",
+    "modified_at": "2025-10-13T18:24:58.521Z",
+    "hsvalidity_products": [
+      {
+        "id": 1,
+        "validity_id": 1,
+        "product_cod": 76328,
+        "quantity": 20,
+        "validity_date": "2020-10-13T00:00:00.000Z",
+        "treat_id": 1,
+        "auxiliary_code": "0",
+        "description": "KIT LIMPA TELAS AROMASIL 100ML"
+      },
+      {
+        "id": 2,
+        "validity_id": 1,
+        "product_cod": 76328,
+        "quantity": 20,
+        "validity_date": "2020-10-13T00:00:00.000Z",
+        "treat_id": 1,
+        "auxiliary_code": "0",
+        "description": "KIT LIMPA TELAS AROMASIL 100ML"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "branch_id": 1,
+    "employee_id": 1,
+    "status": "Pendente",
+    "request_id": 1,
+    "created_at": "2025-10-23T20:10:15.941Z",
+    "modified_at": "2025-10-23T20:10:15.941Z",
+    "hsvalidity_products": [
+      {
+        "id": 2,
+        "validity_id": 2,
+        "product_cod": 2012,
+        "quantity": 1,
+        "validity_date": "2025-11-23T00:00:00.000Z",
+        "treat_id": 1,
+        "auxiliary_code": "0",
+        "description": "QUEIJO MUSSARELA PIRACANJUBA KG"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "branch_id": 1,
+    "employee_id": 1,
+    "status": "Pendente",
+    "request_id": 1,
+    "created_at": "2025-10-23T20:10:47.189Z",
+    "modified_at": "2025-10-23T20:10:47.189Z",
+    "hsvalidity_products": []
+  },
+  {
+    "id": 4,
+    "branch_id": 1,
+    "employee_id": 1,
+    "status": "Pendente",
+    "request_id": 3,
+    "created_at": "2025-10-23T23:03:29.712Z",
+    "modified_at": "2025-10-23T23:03:29.712Z",
+    "hsvalidity_products": [
+      {
+        "id": 3,
+        "validity_id": 4,
+        "product_cod": 2012,
+        "quantity": 23,
+        "validity_date": "2025-11-23T00:00:00.000Z",
+        "treat_id": 1,
+        "auxiliary_code": "0",
+        "description": "QUEIJO MUSSARELA PIRACANJUBA KG"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "branch_id": 1,
+    "employee_id": 1,
+    "status": "Pendente",
+    "request_id": 3,
+    "created_at": "2025-10-23T23:03:29.712Z",
+    "modified_at": "2025-10-23T23:03:29.712Z",
+    "hsvalidity_products": [
+      {
+        "id": 3,
+        "validity_id": 4,
+        "product_cod": 2012,
+        "quantity": 23,
+        "validity_date": "2025-11-23T00:00:00.000Z",
+        "treat_id": 1,
+        "auxiliary_code": "0",
+        "description": "QUEIJO MUSSARELA PIRACANJUBA KG"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "branch_id": 1,
+    "employee_id": 1,
+    "status": "Pendente",
+    "request_id": 3,
+    "created_at": "2025-10-23T23:03:29.712Z",
+    "modified_at": "2025-10-23T23:03:29.712Z",
+    "hsvalidity_products": [
+      {
+        "id": 3,
+        "validity_id": 4,
+        "product_cod": 2012,
+        "quantity": 23,
+        "validity_date": "2025-11-23T00:00:00.000Z",
+        "treat_id": 1,
+        "auxiliary_code": "0",
+        "description": "QUEIJO MUSSARELA PIRACANJUBA KG"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "branch_id": 1,
+    "employee_id": 1,
+    "status": "Pendente",
+    "request_id": 3,
+    "created_at": "2025-10-23T23:03:29.712Z",
+    "modified_at": "2025-10-23T23:03:29.712Z",
+    "hsvalidity_products": [
+      {
+        "id": 3,
+        "validity_id": 4,
+        "product_cod": 2012,
+        "quantity": 23,
+        "validity_date": "2025-11-23T00:00:00.000Z",
+        "treat_id": 1,
+        "auxiliary_code": "0",
+        "description": "QUEIJO MUSSARELA PIRACANJUBA KG"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "branch_id": 1,
+    "employee_id": 1,
+    "status": "Pendente",
+    "request_id": 3,
+    "created_at": "2025-10-23T23:03:29.712Z",
+    "modified_at": "2025-10-23T23:03:29.712Z",
+    "hsvalidity_products": [
+      {
+        "id": 3,
+        "validity_id": 4,
+        "product_cod": 2012,
+        "quantity": 23,
+        "validity_date": "2025-11-23T00:00:00.000Z",
+        "treat_id": 1,
+        "auxiliary_code": "0",
+        "description": "QUEIJO MUSSARELA PIRACANJUBA KG"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "branch_id": 1,
+    "employee_id": 1,
+    "status": "Pendente",
+    "request_id": 3,
+    "created_at": "2025-10-23T23:03:29.712Z",
+    "modified_at": "2025-10-23T23:03:29.712Z",
+    "hsvalidity_products": [
+      {
+        "id": 3,
+        "validity_id": 4,
+        "product_cod": 2012,
+        "quantity": 23,
+        "validity_date": "2025-11-23T00:00:00.000Z",
+        "treat_id": 1,
+        "auxiliary_code": "0",
+        "description": "QUEIJO MUSSARELA PIRACANJUBA KG"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "branch_id": 1,
+    "employee_id": 1,
+    "status": "Pendente",
+    "request_id": 3,
+    "created_at": "2025-10-23T23:03:29.712Z",
+    "modified_at": "2025-10-23T23:03:29.712Z",
+    "hsvalidity_products": [
+      {
+        "id": 3,
+        "validity_id": 4,
+        "product_cod": 2012,
+        "quantity": 23,
+        "validity_date": "2025-11-23T00:00:00.000Z",
+        "treat_id": 1,
+        "auxiliary_code": "0",
+        "description": "QUEIJO MUSSARELA PIRACANJUBA KG"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "branch_id": 1,
+    "employee_id": 1,
+    "status": "Pendente",
+    "request_id": 3,
+    "created_at": "2025-10-23T23:03:29.712Z",
+    "modified_at": "2025-10-23T23:03:29.712Z",
+    "hsvalidity_products": [
+      {
+        "id": 3,
+        "validity_id": 4,
+        "product_cod": 2012,
+        "quantity": 23,
+        "validity_date": "2025-11-23T00:00:00.000Z",
+        "treat_id": 1,
+        "auxiliary_code": "0",
+        "description": "QUEIJO MUSSARELA PIRACANJUBA KG"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "branch_id": 1,
+    "employee_id": 1,
+    "status": "Pendente",
+    "request_id": 3,
+    "created_at": "2025-10-23T23:03:29.712Z",
+    "modified_at": "2025-10-23T23:03:29.712Z",
+    "hsvalidity_products": [
+      {
+        "id": 3,
+        "validity_id": 4,
+        "product_cod": 2012,
+        "quantity": 23,
+        "validity_date": "2025-11-23T00:00:00.000Z",
+        "treat_id": 1,
+        "auxiliary_code": "0",
+        "description": "QUEIJO MUSSARELA PIRACANJUBA KG"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "branch_id": 1,
+    "employee_id": 1,
+    "status": "Pendente",
+    "request_id": 3,
+    "created_at": "2025-10-23T23:03:29.712Z",
+    "modified_at": "2025-10-23T23:03:29.712Z",
+    "hsvalidity_products": [
+      {
+        "id": 3,
+        "validity_id": 4,
+        "product_cod": 2012,
+        "quantity": 23,
+        "validity_date": "2025-11-23T00:00:00.000Z",
+        "treat_id": 1,
+        "auxiliary_code": "0",
+        "description": "QUEIJO MUSSARELA PIRACANJUBA KG"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "branch_id": 1,
+    "employee_id": 1,
+    "status": "Pendente",
+    "request_id": 3,
+    "created_at": "2025-10-23T23:03:29.712Z",
+    "modified_at": "2025-10-23T23:03:29.712Z",
+    "hsvalidity_products": [
+      {
+        "id": 3,
+        "validity_id": 4,
+        "product_cod": 2012,
+        "quantity": 23,
+        "validity_date": "2025-11-23T00:00:00.000Z",
+        "treat_id": 1,
+        "auxiliary_code": "0",
+        "description": "QUEIJO MUSSARELA PIRACANJUBA KG"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "branch_id": 1,
+    "employee_id": 1,
+    "status": "Pendente",
+    "request_id": 3,
+    "created_at": "2025-10-23T23:03:29.712Z",
+    "modified_at": "2025-10-23T23:03:29.712Z",
+    "hsvalidity_products": [
+      {
+        "id": 3,
+        "validity_id": 4,
+        "product_cod": 2012,
+        "quantity": 23,
+        "validity_date": "2025-11-23T00:00:00.000Z",
+        "treat_id": 1,
+        "auxiliary_code": "0",
+        "description": "QUEIJO MUSSARELA PIRACANJUBA KG"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "branch_id": 1,
+    "employee_id": 1,
+    "status": "Pendente",
+    "request_id": 3,
+    "created_at": "2025-10-23T23:03:29.712Z",
+    "modified_at": "2025-10-23T23:03:29.712Z",
+    "hsvalidity_products": [
+      {
+        "id": 3,
+        "validity_id": 4,
+        "product_cod": 2012,
+        "quantity": 23,
+        "validity_date": "2025-11-23T00:00:00.000Z",
+        "treat_id": 1,
+        "auxiliary_code": "0",
+        "description": "QUEIJO MUSSARELA PIRACANJUBA KG"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "branch_id": 1,
+    "employee_id": 1,
+    "status": "Pendente",
+    "request_id": 3,
+    "created_at": "2025-10-23T23:03:29.712Z",
+    "modified_at": "2025-10-23T23:03:29.712Z",
+    "hsvalidity_products": [
+      {
+        "id": 3,
+        "validity_id": 4,
+        "product_cod": 2012,
+        "quantity": 23,
+        "validity_date": "2025-11-23T00:00:00.000Z",
+        "treat_id": 1,
+        "auxiliary_code": "0",
+        "description": "QUEIJO MUSSARELA PIRACANJUBA KG"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "branch_id": 1,
+    "employee_id": 1,
+    "status": "Pendente",
+    "request_id": 3,
+    "created_at": "2025-10-23T23:03:29.712Z",
+    "modified_at": "2025-10-23T23:03:29.712Z",
+    "hsvalidity_products": [
+      {
+        "id": 3,
+        "validity_id": 4,
+        "product_cod": 2012,
+        "quantity": 23,
+        "validity_date": "2025-11-23T00:00:00.000Z",
+        "treat_id": 1,
+        "auxiliary_code": "0",
+        "description": "QUEIJO MUSSARELA PIRACANJUBA KG"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "branch_id": 1,
+    "employee_id": 1,
+    "status": "Pendente",
+    "request_id": 3,
+    "created_at": "2025-10-23T23:03:29.712Z",
+    "modified_at": "2025-10-23T23:03:29.712Z",
+    "hsvalidity_products": [
+      {
+        "id": 3,
+        "validity_id": 4,
+        "product_cod": 2012,
+        "quantity": 23,
+        "validity_date": "2025-11-23T00:00:00.000Z",
+        "treat_id": 1,
+        "auxiliary_code": "0",
+        "description": "QUEIJO MUSSARELA PIRACANJUBA KG"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "branch_id": 1,
+    "employee_id": 1,
+    "status": "Pendente",
+    "request_id": 3,
+    "created_at": "2025-10-23T23:03:29.712Z",
+    "modified_at": "2025-10-23T23:03:29.712Z",
+    "hsvalidity_products": [
+      {
+        "id": 3,
+        "validity_id": 4,
+        "product_cod": 2012,
+        "quantity": 23,
+        "validity_date": "2025-11-23T00:00:00.000Z",
+        "treat_id": 1,
+        "auxiliary_code": "0",
+        "description": "QUEIJO MUSSARELA PIRACANJUBA KG"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "branch_id": 1,
+    "employee_id": 1,
+    "status": "Pendente",
+    "request_id": 3,
+    "created_at": "2025-10-23T23:03:29.712Z",
+    "modified_at": "2025-10-23T23:03:29.712Z",
+    "hsvalidity_products": [
+      {
+        "id": 3,
+        "validity_id": 4,
+        "product_cod": 2012,
+        "quantity": 23,
+        "validity_date": "2025-11-23T00:00:00.000Z",
+        "treat_id": 1,
+        "auxiliary_code": "0",
+        "description": "QUEIJO MUSSARELA PIRACANJUBA KG"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "branch_id": 1,
+    "employee_id": 1,
+    "status": "Pendente",
+    "request_id": 3,
+    "created_at": "2025-10-23T23:03:29.712Z",
+    "modified_at": "2025-10-23T23:03:29.712Z",
+    "hsvalidity_products": [
+      {
+        "id": 3,
+        "validity_id": 4,
+        "product_cod": 2012,
+        "quantity": 23,
+        "validity_date": "2025-11-23T00:00:00.000Z",
+        "treat_id": 1,
+        "auxiliary_code": "0",
+        "description": "QUEIJO MUSSARELA PIRACANJUBA KG"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "branch_id": 1,
+    "employee_id": 1,
+    "status": "Pendente",
+    "request_id": 3,
+    "created_at": "2025-10-23T23:03:29.712Z",
+    "modified_at": "2025-10-23T23:03:29.712Z",
+    "hsvalidity_products": [
+      {
+        "id": 3,
+        "validity_id": 4,
+        "product_cod": 2012,
+        "quantity": 23,
+        "validity_date": "2025-11-23T00:00:00.000Z",
+        "treat_id": 1,
+        "auxiliary_code": "0",
+        "description": "QUEIJO MUSSARELA PIRACANJUBA KG"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "branch_id": 1,
+    "employee_id": 1,
+    "status": "Pendente",
+    "request_id": 3,
+    "created_at": "2025-10-23T23:03:29.712Z",
+    "modified_at": "2025-10-23T23:03:29.712Z",
+    "hsvalidity_products": [
+      {
+        "id": 3,
+        "validity_id": 4,
+        "product_cod": 2012,
+        "quantity": 23,
+        "validity_date": "2025-11-23T00:00:00.000Z",
+        "treat_id": 1,
+        "auxiliary_code": "0",
+        "description": "QUEIJO MUSSARELA PIRACANJUBA KG"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "branch_id": 1,
+    "employee_id": 1,
+    "status": "Pendente",
+    "request_id": 3,
+    "created_at": "2025-10-23T23:03:29.712Z",
+    "modified_at": "2025-10-23T23:03:29.712Z",
+    "hsvalidity_products": [
+      {
+        "id": 3,
+        "validity_id": 4,
+        "product_cod": 2012,
+        "quantity": 23,
+        "validity_date": "2025-11-23T00:00:00.000Z",
+        "treat_id": 1,
+        "auxiliary_code": "0",
+        "description": "QUEIJO MUSSARELA PIRACANJUBA KG"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "branch_id": 1,
+    "employee_id": 1,
+    "status": "Pendente",
+    "request_id": 3,
+    "created_at": "2025-10-23T23:03:29.712Z",
+    "modified_at": "2025-10-23T23:03:29.712Z",
+    "hsvalidity_products": [
+      {
+        "id": 3,
+        "validity_id": 4,
+        "product_cod": 2012,
+        "quantity": 23,
+        "validity_date": "2025-11-23T00:00:00.000Z",
+        "treat_id": 1,
+        "auxiliary_code": "0",
+        "description": "QUEIJO MUSSARELA PIRACANJUBA KG"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "branch_id": 1,
+    "employee_id": 1,
+    "status": "Pendente",
+    "request_id": 3,
+    "created_at": "2025-10-23T23:03:29.712Z",
+    "modified_at": "2025-10-23T23:03:29.712Z",
+    "hsvalidity_products": [
+      {
+        "id": 3,
+        "validity_id": 4,
+        "product_cod": 2012,
+        "quantity": 23,
+        "validity_date": "2025-11-23T00:00:00.000Z",
+        "treat_id": 1,
+        "auxiliary_code": "0",
+        "description": "QUEIJO MUSSARELA PIRACANJUBA KG"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "branch_id": 1,
+    "employee_id": 1,
+    "status": "Pendente",
+    "request_id": 3,
+    "created_at": "2025-10-23T23:03:29.712Z",
+    "modified_at": "2025-10-23T23:03:29.712Z",
+    "hsvalidity_products": [
+      {
+        "id": 3,
+        "validity_id": 4,
+        "product_cod": 2012,
+        "quantity": 23,
+        "validity_date": "2025-11-23T00:00:00.000Z",
+        "treat_id": 1,
+        "auxiliary_code": "0",
+        "description": "QUEIJO MUSSARELA PIRACANJUBA KG"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "branch_id": 1,
+    "employee_id": 1,
+    "status": "Pendente",
+    "request_id": 3,
+    "created_at": "2025-10-23T23:03:29.712Z",
+    "modified_at": "2025-10-23T23:03:29.712Z",
+    "hsvalidity_products": [
+      {
+        "id": 3,
+        "validity_id": 4,
+        "product_cod": 2012,
+        "quantity": 23,
+        "validity_date": "2025-11-23T00:00:00.000Z",
+        "treat_id": 1,
+        "auxiliary_code": "0",
+        "description": "QUEIJO MUSSARELA PIRACANJUBA KG"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "branch_id": 1,
+    "employee_id": 1,
+    "status": "Pendente",
+    "request_id": 3,
+    "created_at": "2025-10-23T23:03:29.712Z",
+    "modified_at": "2025-10-23T23:03:29.712Z",
+    "hsvalidity_products": [
+      {
+        "id": 3,
+        "validity_id": 4,
+        "product_cod": 2012,
+        "quantity": 23,
+        "validity_date": "2025-11-23T00:00:00.000Z",
+        "treat_id": 1,
+        "auxiliary_code": "0",
+        "description": "QUEIJO MUSSARELA PIRACANJUBA KG"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "branch_id": 1,
+    "employee_id": 1,
+    "status": "Pendente",
+    "request_id": 3,
+    "created_at": "2025-10-23T23:03:29.712Z",
+    "modified_at": "2025-10-23T23:03:29.712Z",
+    "hsvalidity_products": [
+      {
+        "id": 3,
+        "validity_id": 4,
+        "product_cod": 2012,
+        "quantity": 23,
+        "validity_date": "2025-11-23T00:00:00.000Z",
+        "treat_id": 1,
+        "auxiliary_code": "0",
+        "description": "QUEIJO MUSSARELA PIRACANJUBA KG"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "branch_id": 1,
+    "employee_id": 1,
+    "status": "Pendente",
+    "request_id": 3,
+    "created_at": "2025-10-23T23:03:29.712Z",
+    "modified_at": "2025-10-23T23:03:29.712Z",
+    "hsvalidity_products": [
+      {
+        "id": 3,
+        "validity_id": 4,
+        "product_cod": 2012,
+        "quantity": 23,
+        "validity_date": "2025-11-23T00:00:00.000Z",
+        "treat_id": 1,
+        "auxiliary_code": "0",
+        "description": "QUEIJO MUSSARELA PIRACANJUBA KG"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "branch_id": 1,
+    "employee_id": 1,
+    "status": "Pendente",
+    "request_id": 3,
+    "created_at": "2025-10-23T23:03:29.712Z",
+    "modified_at": "2025-10-23T23:03:29.712Z",
+    "hsvalidity_products": [
+      {
+        "id": 3,
+        "validity_id": 4,
+        "product_cod": 2012,
+        "quantity": 23,
+        "validity_date": "2025-11-23T00:00:00.000Z",
+        "treat_id": 1,
+        "auxiliary_code": "0",
+        "description": "QUEIJO MUSSARELA PIRACANJUBA KG"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "branch_id": 1,
+    "employee_id": 1,
+    "status": "Pendente",
+    "request_id": 3,
+    "created_at": "2025-10-23T23:03:29.712Z",
+    "modified_at": "2025-10-23T23:03:29.712Z",
+    "hsvalidity_products": [
+      {
+        "id": 3,
+        "validity_id": 4,
+        "product_cod": 2012,
+        "quantity": 23,
+        "validity_date": "2025-11-23T00:00:00.000Z",
+        "treat_id": 1,
+        "auxiliary_code": "0",
+        "description": "QUEIJO MUSSARELA PIRACANJUBA KG"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "branch_id": 1,
+    "employee_id": 1,
+    "status": "Pendente",
+    "request_id": 3,
+    "created_at": "2025-10-23T23:03:29.712Z",
+    "modified_at": "2025-10-23T23:03:29.712Z",
+    "hsvalidity_products": [
+      {
+        "id": 3,
+        "validity_id": 4,
+        "product_cod": 2012,
+        "quantity": 23,
+        "validity_date": "2025-11-23T00:00:00.000Z",
+        "treat_id": 1,
+        "auxiliary_code": "0",
+        "description": "QUEIJO MUSSARELA PIRACANJUBA KG"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "branch_id": 1,
+    "employee_id": 1,
+    "status": "Pendente",
+    "request_id": 3,
+    "created_at": "2025-10-23T23:03:29.712Z",
+    "modified_at": "2025-10-23T23:03:29.712Z",
+    "hsvalidity_products": [
+      {
+        "id": 3,
+        "validity_id": 4,
+        "product_cod": 2012,
+        "quantity": 23,
+        "validity_date": "2025-11-23T00:00:00.000Z",
+        "treat_id": 1,
+        "auxiliary_code": "0",
+        "description": "QUEIJO MUSSARELA PIRACANJUBA KG"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "branch_id": 1,
+    "employee_id": 1,
+    "status": "Pendente",
+    "request_id": 3,
+    "created_at": "2025-10-23T23:03:29.712Z",
+    "modified_at": "2025-10-23T23:03:29.712Z",
+    "hsvalidity_products": [
+      {
+        "id": 3,
+        "validity_id": 4,
+        "product_cod": 2012,
+        "quantity": 23,
+        "validity_date": "2025-11-23T00:00:00.000Z",
+        "treat_id": 1,
+        "auxiliary_code": "0",
+        "description": "QUEIJO MUSSARELA PIRACANJUBA KG"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "branch_id": 1,
+    "employee_id": 1,
+    "status": "Pendente",
+    "request_id": 3,
+    "created_at": "2025-10-23T23:03:29.712Z",
+    "modified_at": "2025-10-23T23:03:29.712Z",
+    "hsvalidity_products": [
+      {
+        "id": 3,
+        "validity_id": 4,
+        "product_cod": 2012,
+        "quantity": 23,
+        "validity_date": "2025-11-23T00:00:00.000Z",
+        "treat_id": 1,
+        "auxiliary_code": "0",
+        "description": "QUEIJO MUSSARELA PIRACANJUBA KG"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "branch_id": 1,
+    "employee_id": 1,
+    "status": "Pendente",
+    "request_id": 3,
+    "created_at": "2025-10-23T23:03:29.712Z",
+    "modified_at": "2025-10-23T23:03:29.712Z",
+    "hsvalidity_products": [
+      {
+        "id": 3,
+        "validity_id": 4,
+        "product_cod": 2012,
+        "quantity": 23,
+        "validity_date": "2025-11-23T00:00:00.000Z",
+        "treat_id": 1,
+        "auxiliary_code": "0",
+        "description": "QUEIJO MUSSARELA PIRACANJUBA KG"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "branch_id": 1,
+    "employee_id": 1,
+    "status": "Pendente",
+    "request_id": 3,
+    "created_at": "2025-10-23T23:03:29.712Z",
+    "modified_at": "2025-10-23T23:03:29.712Z",
+    "hsvalidity_products": [
+      {
+        "id": 3,
+        "validity_id": 4,
+        "product_cod": 2012,
+        "quantity": 23,
+        "validity_date": "2025-11-23T00:00:00.000Z",
+        "treat_id": 1,
+        "auxiliary_code": "0",
+        "description": "QUEIJO MUSSARELA PIRACANJUBA KG"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "branch_id": 1,
+    "employee_id": 1,
+    "status": "Pendente",
+    "request_id": 3,
+    "created_at": "2025-10-23T23:03:29.712Z",
+    "modified_at": "2025-10-23T23:03:29.712Z",
+    "hsvalidity_products": [
+      {
+        "id": 3,
+        "validity_id": 4,
+        "product_cod": 2012,
+        "quantity": 23,
+        "validity_date": "2025-11-23T00:00:00.000Z",
+        "treat_id": 1,
+        "auxiliary_code": "0",
+        "description": "QUEIJO MUSSARELA PIRACANJUBA KG"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "branch_id": 1,
+    "employee_id": 1,
+    "status": "Pendente",
+    "request_id": 3,
+    "created_at": "2025-10-23T23:03:29.712Z",
+    "modified_at": "2025-10-23T23:03:29.712Z",
+    "hsvalidity_products": [
+      {
+        "id": 3,
+        "validity_id": 4,
+        "product_cod": 2012,
+        "quantity": 23,
+        "validity_date": "2025-11-23T00:00:00.000Z",
+        "treat_id": 1,
+        "auxiliary_code": "0",
+        "description": "QUEIJO MUSSARELA PIRACANJUBA KG"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "branch_id": 1,
+    "employee_id": 1,
+    "status": "Pendente",
+    "request_id": 3,
+    "created_at": "2025-10-23T23:03:29.712Z",
+    "modified_at": "2025-10-23T23:03:29.712Z",
+    "hsvalidity_products": [
+      {
+        "id": 3,
+        "validity_id": 4,
+        "product_cod": 2012,
+        "quantity": 23,
+        "validity_date": "2025-11-23T00:00:00.000Z",
+        "treat_id": 1,
+        "auxiliary_code": "0",
+        "description": "QUEIJO MUSSARELA PIRACANJUBA KG"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "branch_id": 1,
+    "employee_id": 1,
+    "status": "Pendente",
+    "request_id": 3,
+    "created_at": "2025-10-23T23:03:29.712Z",
+    "modified_at": "2025-10-23T23:03:29.712Z",
+    "hsvalidity_products": [
+      {
+        "id": 3,
+        "validity_id": 4,
+        "product_cod": 2012,
+        "quantity": 23,
+        "validity_date": "2025-11-23T00:00:00.000Z",
+        "treat_id": 1,
+        "auxiliary_code": "0",
+        "description": "QUEIJO MUSSARELA PIRACANJUBA KG"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "branch_id": 1,
+    "employee_id": 1,
+    "status": "Pendente",
+    "request_id": 3,
+    "created_at": "2025-10-23T23:03:29.712Z",
+    "modified_at": "2025-10-23T23:03:29.712Z",
+    "hsvalidity_products": [
+      {
+        "id": 3,
+        "validity_id": 4,
+        "product_cod": 2012,
+        "quantity": 23,
+        "validity_date": "2025-11-23T00:00:00.000Z",
+        "treat_id": 1,
+        "auxiliary_code": "0",
+        "description": "QUEIJO MUSSARELA PIRACANJUBA KG"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "branch_id": 1,
+    "employee_id": 1,
+    "status": "Pendente",
+    "request_id": 3,
+    "created_at": "2025-10-23T23:03:29.712Z",
+    "modified_at": "2025-10-23T23:03:29.712Z",
+    "hsvalidity_products": [
+      {
+        "id": 3,
+        "validity_id": 4,
+        "product_cod": 2012,
+        "quantity": 23,
+        "validity_date": "2025-11-23T00:00:00.000Z",
+        "treat_id": 1,
+        "auxiliary_code": "0",
+        "description": "QUEIJO MUSSARELA PIRACANJUBA KG"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "branch_id": 1,
+    "employee_id": 1,
+    "status": "Pendente",
+    "request_id": 3,
+    "created_at": "2025-10-23T23:03:29.712Z",
+    "modified_at": "2025-10-23T23:03:29.712Z",
+    "hsvalidity_products": [
+      {
+        "id": 3,
+        "validity_id": 4,
+        "product_cod": 2012,
+        "quantity": 23,
+        "validity_date": "2025-11-23T00:00:00.000Z",
+        "treat_id": 1,
+        "auxiliary_code": "0",
+        "description": "QUEIJO MUSSARELA PIRACANJUBA KG"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "branch_id": 1,
+    "employee_id": 1,
+    "status": "Pendente",
+    "request_id": 3,
+    "created_at": "2025-10-23T23:03:29.712Z",
+    "modified_at": "2025-10-23T23:03:29.712Z",
+    "hsvalidity_products": [
+      {
+        "id": 3,
+        "validity_id": 4,
+        "product_cod": 2012,
+        "quantity": 23,
+        "validity_date": "2025-11-23T00:00:00.000Z",
+        "treat_id": 1,
+        "auxiliary_code": "0",
+        "description": "QUEIJO MUSSARELA PIRACANJUBA KG"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "branch_id": 1,
+    "employee_id": 1,
+    "status": "Pendente",
+    "request_id": 3,
+    "created_at": "2025-10-23T23:03:29.712Z",
+    "modified_at": "2025-10-23T23:03:29.712Z",
+    "hsvalidity_products": [
+      {
+        "id": 3,
+        "validity_id": 4,
+        "product_cod": 2012,
+        "quantity": 23,
+        "validity_date": "2025-11-23T00:00:00.000Z",
+        "treat_id": 1,
+        "auxiliary_code": "0",
+        "description": "QUEIJO MUSSARELA PIRACANJUBA KG"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "branch_id": 1,
+    "employee_id": 1,
+    "status": "Pendente",
+    "request_id": 3,
+    "created_at": "2025-10-23T23:03:29.712Z",
+    "modified_at": "2025-10-23T23:03:29.712Z",
+    "hsvalidity_products": [
+      {
+        "id": 3,
+        "validity_id": 4,
+        "product_cod": 2012,
+        "quantity": 23,
+        "validity_date": "2025-11-23T00:00:00.000Z",
+        "treat_id": 1,
+        "auxiliary_code": "0",
+        "description": "QUEIJO MUSSARELA PIRACANJUBA KG"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "branch_id": 1,
+    "employee_id": 1,
+    "status": "Pendente",
+    "request_id": 3,
+    "created_at": "2025-10-23T23:03:29.712Z",
+    "modified_at": "2025-10-23T23:03:29.712Z",
+    "hsvalidity_products": [
+      {
+        "id": 3,
+        "validity_id": 4,
+        "product_cod": 2012,
+        "quantity": 23,
+        "validity_date": "2025-11-23T00:00:00.000Z",
+        "treat_id": 1,
+        "auxiliary_code": "0",
+        "description": "QUEIJO MUSSARELA PIRACANJUBA KG"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "branch_id": 1,
+    "employee_id": 1,
+    "status": "Pendente",
+    "request_id": 3,
+    "created_at": "2025-10-23T23:03:29.712Z",
+    "modified_at": "2025-10-23T23:03:29.712Z",
+    "hsvalidity_products": [
+      {
+        "id": 3,
+        "validity_id": 4,
+        "product_cod": 2012,
+        "quantity": 23,
+        "validity_date": "2025-11-23T00:00:00.000Z",
+        "treat_id": 1,
+        "auxiliary_code": "0",
+        "description": "QUEIJO MUSSARELA PIRACANJUBA KG"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "branch_id": 1,
+    "employee_id": 1,
+    "status": "Pendente",
+    "request_id": 3,
+    "created_at": "2025-10-23T23:03:29.712Z",
+    "modified_at": "2025-10-23T23:03:29.712Z",
+    "hsvalidity_products": [
+      {
+        "id": 3,
+        "validity_id": 4,
+        "product_cod": 2012,
+        "quantity": 23,
+        "validity_date": "2025-11-23T00:00:00.000Z",
+        "treat_id": 1,
+        "auxiliary_code": "0",
+        "description": "QUEIJO MUSSARELA PIRACANJUBA KG"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "branch_id": 1,
+    "employee_id": 1,
+    "status": "Pendente",
+    "request_id": 3,
+    "created_at": "2025-10-23T23:03:29.712Z",
+    "modified_at": "2025-10-23T23:03:29.712Z",
+    "hsvalidity_products": [
+      {
+        "id": 3,
+        "validity_id": 4,
+        "product_cod": 2012,
+        "quantity": 23,
+        "validity_date": "2025-11-23T00:00:00.000Z",
+        "treat_id": 1,
+        "auxiliary_code": "0",
+        "description": "QUEIJO MUSSARELA PIRACANJUBA KG"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "branch_id": 1,
+    "employee_id": 1,
+    "status": "Pendente",
+    "request_id": 3,
+    "created_at": "2025-10-23T23:03:29.712Z",
+    "modified_at": "2025-10-23T23:03:29.712Z",
+    "hsvalidity_products": [
+      {
+        "id": 3,
+        "validity_id": 4,
+        "product_cod": 2012,
+        "quantity": 23,
+        "validity_date": "2025-11-23T00:00:00.000Z",
+        "treat_id": 1,
+        "auxiliary_code": "0",
+        "description": "QUEIJO MUSSARELA PIRACANJUBA KG"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "branch_id": 1,
+    "employee_id": 1,
+    "status": "Pendente",
+    "request_id": 3,
+    "created_at": "2025-10-23T23:03:29.712Z",
+    "modified_at": "2025-10-23T23:03:29.712Z",
+    "hsvalidity_products": [
+      {
+        "id": 3,
+        "validity_id": 4,
+        "product_cod": 2012,
+        "quantity": 23,
+        "validity_date": "2025-11-23T00:00:00.000Z",
+        "treat_id": 1,
+        "auxiliary_code": "0",
+        "description": "QUEIJO MUSSARELA PIRACANJUBA KG"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "branch_id": 1,
+    "employee_id": 1,
+    "status": "Pendente",
+    "request_id": 3,
+    "created_at": "2025-10-23T23:03:29.712Z",
+    "modified_at": "2025-10-23T23:03:29.712Z",
+    "hsvalidity_products": [
+      {
+        "id": 3,
+        "validity_id": 4,
+        "product_cod": 2012,
+        "quantity": 23,
+        "validity_date": "2025-11-23T00:00:00.000Z",
+        "treat_id": 1,
+        "auxiliary_code": "0",
+        "description": "QUEIJO MUSSARELA PIRACANJUBA KG"
+      }
+    ]
+  }
+]
