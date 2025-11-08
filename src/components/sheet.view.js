@@ -30,7 +30,7 @@ export function ExportTable() {
             : subRow.treat_id === 7
             ? "Vencido"
             : subRow.treat_id === 8
-            ? "Produção vendável dentro do prazo"
+            ? "Produto vendável dentro do prazo"
             : subRow.treat_id === 9
             ? "Inserção tardia"
             : "Tipo inválido";
@@ -56,13 +56,24 @@ export function ExportTable() {
     let firstDate = products[0].validity_date;
     let lastDate = products[products.length - 1].validity_date;
     const worksheet = utils.json_to_sheet(products);
+    // worksheet["!dataValidations"] = [
+    //   {
+    //     sqref: "M2:M10000",
+    //     type: "list",
+    //     formulas: [
+    //       '"Pendente, Colocar em promoção, Troca com o fornecedor, Transferência interna, Bloqueio para venda, Vencido, Produto vendável dentro do prazo, Inserção tardia"',
+    //     ],
+    //     showDropDown: false,
+    //     allowBlank: true,
+    //   },
+    // ];
     const workbook = utils.book_new();
     firstDate = firstDate.replaceAll("/", "-");
     lastDate = lastDate.replaceAll("/", "-");
     const sheetName = `Validade ${firstDate} ${lastDate}`;
-    utils.book_append_sheet(workbook, worksheet, "Validade");
+    utils.book_append_sheet(workbook, worksheet, `${firstDate} - ${lastDate}`);
     writeFile(workbook, `${sheetName}.xlsx`, { compression: true });
-    console.log(products);
+    console.log(worksheet);
     // const responseResult = await fetch("https://docs.sheetjs.com/executive.json");
     // const responseValue = await responseResult.json();
     // const prez = responseValue.filter((row) => row.terms.some((term) => term.type === "prez"));
@@ -103,13 +114,12 @@ export function ExportTable() {
 }
 
 export function ImportTable() {
-  const [__html, setHtml] = useState("");
   const [table, setTable] = useState([]);
   const [tableKey, setTableKey] = useState(0);
 
   async function readTable(data) {
     const buffer = await data.arrayBuffer();
-    const workbook = read(buffer);
+    const workbook = read(buffer, { sheetRows: 5 });
     const worksheet = workbook.Sheets[workbook.SheetNames[0]];
     const raw_data = utils.sheet_to_json(worksheet, { header: 1 });
     const rows = raw_data.filter((r) => typeof r[0] === "number");
@@ -128,30 +138,55 @@ export function ImportTable() {
       row[12] =
         row[12] === "Pendente"
           ? 1
-          : row[12] === "Colocar em promoção"
+          : row[12].trim() === "Colocar em promoção"
           ? 2
-          : row[12] === "Troca com o fornecedor"
+          : row[12].trim() === "Troca com o fornecedor"
           ? 3
-          : row[12] === "Transferência interna"
+          : row[12].trim() === "Transferência interna"
           ? 4
-          : row[12] === "Bloqueio para venda"
+          : row[12].trim() === "Bloqueio para venda"
           ? 5
-          : row[12] === "Doação"
+          : row[12].trim() === "Doação"
           ? 6
-          : row[12] === "Vencido"
+          : row[12].trim() === "Vencido"
           ? 7
-          : row[12] === "Produto vendável dentro do prazo"
+          : row[12].trim() === "Produto vendável dentro do prazo"
           ? 8
-          : row[12] === "Inserção tardia"
+          : row[12].trim() === "Inserção tardia"
           ? 9
           : "Tipo inválido";
     });
 
-    setTable(objects);
+    //0, 7, 12
+    const numbers = rows.map((row) => ({
+      validity_id: row[0],
+      products: [
+        {
+          product_cod: row[7],
+          treat_id: row[12],
+        },
+      ],
+    }));
+    console.log(numbers);
+
+    const merged = Object.values(
+      numbers.reduce((acc, curr) => {
+        // Se ainda não existir esse validity_id no acumulador, cria
+        if (!acc[curr.validity_id]) {
+          acc[curr.validity_id] = { validity_id: curr.validity_id, products: [] };
+        }
+
+        // Adiciona os produtos no array correspondente
+        acc[curr.validity_id].products.push(...curr.products);
+
+        return acc;
+      }, {})
+    );
+
+    console.log(merged);
+    // setTable(objects);
     setTableKey((prev) => prev + 1);
 
-    console.log(objects);
-    console.log(rows);
     // const url = "https://docs.sheetjs.com/PortfolioSummary.xls";
     // const file = await (await fetch(url)).arrayBuffer();
     // const workbook = read(file, { sheetRows: 20 });
@@ -191,7 +226,6 @@ export function ImportTable() {
           Gerar tabela
         </button> */}
       </form>
-      {__html && <div dangerouslySetInnerHTML={{ __html }} />}
       {table.length > 0 && (
         <table key={tableKey}>
           <thead>
